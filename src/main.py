@@ -4,6 +4,8 @@ import os
 import sys
 
 from anilist.api_client import obtener_token
+from ui.interfaz import tu_clase_interfaz
+
 
 # Endpoint GraphQL de AniList
 API_URL = "https://graphql.anilist.co"
