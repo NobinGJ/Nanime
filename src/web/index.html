@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanime</title>
+    <link rel="icon" href="icon-web.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'Poppins-MediumItalic';
+            src: url("Poppins-MediumItalic.ttf") format('truetype'); /* Asegúrate de que la ruta sea correcta */
+            font-style: italic; /* Estilo de la fuente */
+            font-weight: 500; /* Peso de la fuente */
+        }
+        body {
+            margin: 0; /* Elimina el margen por defecto */
+            height: 100vh; /* Hace que el cuerpo ocupe toda la altura de la ventana */
+            background-image: url("waves.jpg");
+            background-color: #cccccc;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex; /* Usar flexbox para el layout */
+            align-items: center; /* Centra verticalmente */
+            justify-content: center; /* Centra horizontalmente */
+            padding: 20px; /* Agrega un poco de padding */
+            font-family: 'Poppins-MediumItalic', sans-serif; /* Aplica la fuente Poppins-MediumItalic */
+        }
+            
+        .content {
+            max-width: 600px; /* Limita el ancho del texto */
+            color: white; /* Cambia el color del texto para que sea visible */
+            text-align: left; /* Centra el texto */
+            margin-right: 20px; /* Espacio entre el texto y la imagen */
+        }
+
+        .nanime-image {
+            width: 700px; /* Ajusta el tamaño de la imagen según sea necesario */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
+
+        .badge {
+            background-color: white; /* Cambia el color de fondo a blanco */
+            color: red; /* Cambia el color del texto a rojo */
+            padding: 3px 6px; /* Espaciado interno más pequeño */
+            border-radius: 5px; /* Bordes redondeados */
+            display: inline-block; /* Para que se ajuste al contenido */
+            margin-left: 10px; /* Espacio a la izquierda del badge */
+            font-size: 12px; /* Tamaño de fuente más pequeño para el badge */
+        }
+
+        h1 {
+            font-size: 65px; /* Tamaño de fuente más grande para el nombre del programa */
+        }
+
+        p {
+            font-size: 20px; /* Tamaño de la descripcion del programa */
+            background: linear-gradient(to right, #ff0000, #b22222); /* Gradiente de rojo a rojo oscuro */
+            -webkit-background-clip: text; /* Para que el fondo se aplique al texto en navegadores WebKit */
+            background-clip: text; /* Para que el fondo se aplique al texto en navegadores estándar */
+            -webkit-text-fill-color: transparent; /* Hace que el color de relleno del texto sea transparente en navegadores WebKit */
+        }
+
+        .github-button {
+            display: inline-flex; /* Usar flexbox para alinear el ícono y el texto */
+            align-items: center; /* Centrar verticalmente el ícono y el texto */
+            background-color: #d83c3c; /* Color de fondo del botón (gris oscuro de GitHub) */
+            color: white; /* Color del texto */
+            padding: 10px 15px; /* Espaciado interno */
+            border-radius: 5px; /* Bordes redondeados */
+            text-decoration: none; /* Eliminar subrayado del enlace */
+            margin-top: 20px; /* Espacio superior para separar del texto anterior */
+        }
+
+        .github-icon {
+            width: 20px; /* Ajusta el tamaño del ícono */
+            height: auto; /* Mantiene la proporción del ícono */
+            margin-right: 8px; /* Espacio entre el ícono y el texto */
+        }
+
+        footer {
+        position: absolute; /* Posición absoluta para que esté en la parte inferior */
+        bottom: 20px; /* Espacio desde el fondo */
+        left: 50%; /* Centrar horizontalmente */
+        transform: translateX(-50%); /* Ajustar el desplazamiento para centrar */
+        color: rgb(255, 255, 255); /* Color del texto */
+        font-size: 16px; /* Tamaño de fuente */
+        text-align: center; /* Centrar el texto */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Nanime<span class="badge">v0.0.01</span></h1> <!-- Badge agregado al lado del nombre -->
+        <p>Nanime cliente de Anilist con la posibilidad de ver anime usando ciertos truquitos. Mayormente creada en python, este es mi primer proyecto y mi primera vez programando algo así y no sé mucho del tema así que se avanza lento pero aprendiendo.</p>
+        <a href="https://github.com/NobinGJ/Nanime" target="_blank" class="github-button">
+            <img src="github-mark.png" alt="GitHub" class="github-icon"> Source Code
+        </a>
+    </div>
+    <img src="beta.png" alt="Imagen de Nanime" class="nanime-image"> <!-- Cambia la ruta a tu imagen -->
+</body>
+<footer>
+    <p>Desarrollador by NobinGZ</p>
+</footer>
+</html>

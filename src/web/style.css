@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Hace que el cuerpo ocupe toda la altura de la ventana */
+    background-image: url('/assets/waves.jpg'); /* Cambia esto por la ruta de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    color: rgba(255, 255, 255, 0); /* Cambia el color del texto si es necesario */
+    display: flex; /* Para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto */
+}
