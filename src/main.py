@@ -4,7 +4,16 @@ import os
 import sys
 
 from anilist.api_client import obtener_token
-from ui.interfaz import tu_clase_interfaz
+import sys
+from PyQt5.QtWidgets import QApplication
+from ui.main_window import VentanaPrincipal
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    ventana = VentanaPrincipal()
+    ventana.show()
+    sys.exit(app.exec_())
+
 
 
 # Endpoint GraphQL de AniList
