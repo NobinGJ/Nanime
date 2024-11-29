@@ -5,7 +5,7 @@
 
 # By NobinGZ
 
-Es el primer programa que desarrollo , y aparte no se mucho de programacion , ya que la idea de este programa es aprender y mejorar conforme avanzo en el aprendizaje de la programacion. Si alguien quiere dar una opinion o sugerencia , no dude en hacerlo , ya que esto es un proyecto en constante desarrollo 
+Es el primer programa que desarrollo , y aparte no se mucho de programacion , ya que la idea de este programa es aprender y mejorar conforme avanzo en el desarrollo del programa. Si alguien quiere dar una opinion o sugerencia , no dude en hacerlo , ya que esto es un proyecto en constante desarrollo 
 ya que es mi metodo de aprendisaje , y si alguien quiere ayudarme o aconsejarme en algo , no dude en hacerlo , mientras pueda mejorar y aprender mas , caulquier consejo es bien bienvenido.
 
 # Nanime
