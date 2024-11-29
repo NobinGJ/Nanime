@@ -1,0 +1,4 @@
+anilist-python
+requests
+beautifulsoup4
+PyQt
