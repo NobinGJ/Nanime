@@ -20,7 +20,7 @@ Características
 
 ## Message
 
-Soy nuevo en esto de la programacion en flutter o bueno en general y quiero user este proyecto para ir aprendiendo y mejorando en el camino y tambien por que quiero una app que se ajuste a mi.
+Soy nuevo en esto de la programacion en flutter o bueno en general y quiero usar este proyecto para ir aprendiendo y mejorando en el camino y tambien por que quiero una app que se ajuste a mi.
 
 Asi que me disculpo si voy lento y si hay muchos errores, se que lo mejor hubiese sido empezar desde otro punto, pero la verdad prefiero hacerlo asi.
 
