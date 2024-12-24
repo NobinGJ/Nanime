@@ -30,7 +30,7 @@ Espero entiendas y agradesco a los interesados.
 
 Crea una rama para tu funcionalidad o corrección:
 ```bash
-git checkout -b nombre-rama
+git checkout -b Nanime
 ```
 Realiza los cambios y haz un commit:
 ```bash
